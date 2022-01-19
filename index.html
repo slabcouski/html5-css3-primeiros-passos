@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!-- deve ser sempre utilizada a tag doctype para que o navegador entenda que tipo de hmtl estamos usando, qual a versão utilizada-->
+
+<html lang = "pt-br">
+
+    <head>
+            <!-- informações que estão sendo passadas para o navegador, utilizando a tag head-->
+            <meta charset = "UTF-8">
+             <!-- CHARacter SET, conjunto de caracteres, dicionário... serve pra mostrar pra página que tem os acentos -->
+            <title>Barbearia Alura</title>
+            <!-- titulo da página-->
+            <link rel="stylesheet" href="style-home.css">
+        <!-- o relacionamento desse link com a propriedade rel e o valor stylesheet, ou seja, folha de estilo, 
+            e vamos dizer onde o arquivo está, href, que é o endereço de referência -->
+        
+    </head>
+
+        <header>
+            <!-- cabeçalho da pagina, fica dentro do conteudo, nao confundir head com headER-->
+            <h1 class="cabecalho">Barbearia Alura</h1>
+        </header>
+
+        <img id="banner" src="banner.jpg">
+        <!--src é de souce/fonte, qual o nome da imagem-->
+        <div class="principal">
+            <!-- div é usado para dividir o conteudo-->
+            <h2 class="tituloCentralizado">Sobre a Barbearia Alura </h2>
+                <!-- o <h> é utilizado para heading (título) já o <p> é para parágrafos -->
+
+            <p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, 
+            a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia. </p>
+
+            <!-- strong é negrito, "em" é de ênfase (itálico)-->
+
+            <p id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong></em>. </p>
+
+            <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, 
+            garantindo qualidade e satisfação dos nossos clientes. </p>
+        </div>
+
+        <div class="beneficios">
+            <h3 class="tituloCentralizado">Benefícios</h3>
+            
+            <ul>
+                <!--ul é para criar uma lista nao ordenada, unordered list. para criar uma lista ordenada, é só trocar para ol, de ordered list.. a ordenada fica com 1, 2.. etc-->
+                <li class="itens">Antedimento aos clientes</li>
+                <li class="itens">Espaço diferenciado</li>
+                <li class="itens">Localização</li>
+                <li class="itens">Profissionais qualificados</li>
+            </ul>
+
+            <img src="beneficios.jpg" class="imagemBeneficios">
+
+        </div>
+
+        <footer>
+            <img src="logo-branco.png">
+            <p class="copyright">&copy; Copyright Barbearia Alura - 2021</p>
+        </footer>
+        
+    </body>     
+</html>
